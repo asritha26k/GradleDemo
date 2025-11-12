@@ -1,6 +1,13 @@
 plugins {
-    id("java-library")
-    id("org.sonarqube") version "4.4.0.5187" // compatible with Gradle 8+ and Kotlin DSL
+  id "org.sonarqube" version "7.0.1.6134"
+}
+sonarqube {
+    properties {
+        property("sonar.projectKey", "YOUR_PROJECT_KEY") // From SonarCloud
+        property("sonar.organization", "YOUR_ORG") // From SonarCloud
+        property("sonar.host.url", "https://sonarcloud.io")
+        property("sonar.login", "YOUR_SONAR_TOKEN") // Generate token in SonarCloud
+    }
 }
 
 repositories {
