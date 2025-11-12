@@ -1,6 +1,6 @@
 plugins {
     id("java-library")
-    id("org.sonarqube") version "5.1.0.4882"
+    id("org.sonarqube") version "5.8.0.38101"
 }
 
 repositories {
