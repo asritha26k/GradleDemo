@@ -1,5 +1,6 @@
 plugins {
     id("java-library")
+    id("org.sonarqube") version "4.4.0.5187" // compatible with Gradle 8+ and Kotlin DSL
 }
 
 repositories {
