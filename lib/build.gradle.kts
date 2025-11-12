@@ -6,8 +6,8 @@
  */
 
 plugins {
-    // Apply the java-library plugin for API and implementation separation.
-    `java-library`
+    id "java"
+    id "org.sonarqube" version "5.1.0.4882"
 }
 
 repositories {
