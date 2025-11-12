@@ -36,6 +36,7 @@ tasks.test {
 
 sonarqube {
     properties {
+    property("sonar.projectName", "GradleDemo")
         property("sonar.projectKey", "asritha26k_GradleDemo")
         property("sonar.organization", "asritha26k")
         property("sonar.host.url", "https://sonarcloud.io")
